@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cherry CC - генератор персонажа онлайн</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script src="js/generator.js"></script>
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/back-style.css">
+	<link rel="stylesheet" type="text/css" href="styles/animate.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>		
+	<header>
+		<nav class="menu">
+			<div class="logo"><a href="index.html"><img src="images/cherry-cc.png"></a></div>
+			<div class="link"><a href="index.html" class="active">Генератор</a></div>
+			<div class="link"><a href="pages/how-to-use.html">Как использовать</a></div>
+			<div class="link"><a href="pages/about.html">Описание</a></div>
+		</nav>
+		<nav class="mobile-menu">
+			<div class="logo"><a href="index.html"><img src="images/cherry-cc.png"></a></div>
+		    <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+		    <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+		    <div class="mobile-menu__container">
+			    <div class="link"><a href="index.html" class="active">Генератор</a></div>
+				<div class="link"><a href="pages/how-to-use.html">Как использовать</a></div>
+				<div class="link"><a href="pages/about.html">Описание</a></div>
+		    </div>
+		</nav>
+	</header>
+	<div id="stars"></div>
+	<div id="stars2"></div>
+	<div id="stars3"></div>
+	<main>
+		<div class="content">
+			<div class="person">
+				<div><img width="350px" height="700px" class='race' id='race' src='generator/race/0.png' /></div>
+				<div><img width="350px" height="700px" class='feature' id='feature' src='generator/feature/0.png' /></div>
+				<div><img width="350px" height="700px" class='eyes' id='eyes' src='generator/eyes/11.png' /></div>
+				<div><img width="350px" height="700px" class='hair' id='hair' src='generator/hair/9.3.png' /></div>
+				<div><img width="350px" height="700px" class='bodyfeat' id='bodyfeat' src='generator/bodyfeat/0.png' /></div>
+				<div><img width="350px" height="700px" class='clothes' id='clothes' src='generator/clothes/6.png' /></div>				
+			</div>
+			<div class="right-content">
+				<div class="par-text">
+					<div class="text_name animated fadeIn" id="text_name">Cherry CC — генератор персонажа онлайн</div>
+					<div class="text animated fadeIn" id="text">
+						<p>Привет, это я — автор данного проекта!😋</p>
+						<p>Выбери подходящие настройки и нажми кнопку "Сгенерировать"✨</p>
+					</div>
+				</div>
+				<div class="prefer">
+					<fieldset class="animated fadeIn">
+					<legend>Раса</legend>
+						<p><input type="checkbox" id="race_check" checked>Добавить мифические расы</p>
+					</fieldset>
+
+					<fieldset class="animated fadeIn">
+					<legend>Имя</legend>
+						<p><input type="radio" name="radio" id="name_en" checked>Английские имена</p>
+						<p><input type="radio" name="radio" id="name_jp">Японские имена</p>
+						<p><input type="radio" name="radio" id="name_my">Мифические имена</p>
+					</fieldset>
+					
+				</div>
+				<div class="button">
+					<input type="button" name="generate" value="Сгенерировать" class="butt animated bounceIn" onClick="generate()" />
+				</div>
+			</div>
+		</div>		
+	</main>
+	<footer class="collectonme">
+		<div><p>&copy Все права защищены - 2021</p></div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+.explain {
+	margin: 7px;
+	background: #fff;
+	border: 1px solid #f0f2f7;
+	border-radius: 7px;
+	width: 100%;
+	height: auto;
+	box-shadow: 0 0.4rem 0.8rem -0.1rem rgba(0, 32, 128, .1), 0 0 0 1px #f0f2f7;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.explain a {
+	text-decoration: none;
+}
+
+.faq {
+	padding: 2% 9%;
+}
+
+iframe {
+	padding-top: 3%;
+}
+
+.soc-media {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.soc-media div {
+	width: 100px;
+	height: 100px;
+	margin: 1%;
+}
+
+.soc-media img {
+	width: 100%;
+	height: auto;
+}
+
+.soc-media div:hover {
+	transform: scale(1.1);
+	transition: all 0.5s ease-out;
+}
+
+.butt-a {
+	font-family: "Gotham";
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 7px 20px;
+	margin-bottom: 5%;
+	background: #131313;
+	cursor: pointer;
+	color: #fff;
+}
+
+.butt-a:hover {
+	background: #ff1964;
+	transition: .5s ease-in-out;
+}
