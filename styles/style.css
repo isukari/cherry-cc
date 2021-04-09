@@ -315,15 +315,7 @@ fieldset {
 	position: absolute;
 }
 
-.load_bg { 
-	position: absolute;
-	display: none;
-}
 
-.load_lg { 
-	position: absolute;
-	display: none;
-}
 
 footer {
 	width: 100%;
@@ -331,9 +323,6 @@ footer {
 	text-align: center;
 	color: #ddd;
 }
-
-
-
 
 @media only screen and (max-width: 960px) {
 	.menu {

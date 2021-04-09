@@ -153,11 +153,6 @@ function generate() {
 	else if (feature < 95) feature = 2;
 	else if (feature < 100) feature = 3;
 	else feature = 4;
-	
-	document.getElementById("load_bg").style.display = "block";
-	document.getElementById("load_lg").style.display = "block";
-	document.getElementById("load_bg").style.zIndex = 998;
-	document.getElementById("load_lg").style.zIndex = 999;
 
 	if (document.getElementById("name_jp").checked){
 		document.getElementById("text_name").innerHTML = names_jp[Math.floor(Math.random() * names_jp.length)];
@@ -197,8 +192,5 @@ function generate() {
 	document.getElementById("eyes").src="generator/eyes/" + eyes_color + ".png";
 	document.getElementById("hair").src="generator/hair/" + hairstyle + "." + hair_color + ".png";
 	document.getElementById("bodyfeat").src="generator/bodyfeat/" + bodyfeat + ".png";
-	document.getElementById("clothes").src="generator/clothes/" + clothes + ".png";
-
-	document.getElementById("load_bg").style.display = "none";
-	document.getElementById("load_lg").style.display = "none";
+	document.getElementById("clothes").src="generator/clothes/" + clothes + ".png";	
 }
