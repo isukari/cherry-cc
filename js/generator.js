@@ -156,6 +156,8 @@ function generate() {
 	
 	document.getElementById("load_bg").style.display = "block";
 	document.getElementById("load_lg").style.display = "block";
+	document.getElementById("load_bg").style.zIndex = 998;
+	document.getElementById("load_lg").style.zIndex = 999;
 
 	if (document.getElementById("name_jp").checked){
 		document.getElementById("text_name").innerHTML = names_jp[Math.floor(Math.random() * names_jp.length)];
