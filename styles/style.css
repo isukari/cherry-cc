@@ -291,28 +291,38 @@ fieldset {
 	outline: 0;
 }
 
+.bg_clothes { 
+	position: absolute;
+	z-index: 10;
+}
 .race { 
 	position: absolute;
+	z-index: 20;
 }
 
 .feature { 
 	position: absolute;
+	z-index: 30;
 }
 
 .eyes { 
 	position: absolute;
+	z-index: 40;
 }
 
 .hair { 
 	position: absolute;
+	z-index: 50;
 }
 
 .bodyfeat { 
 	position: absolute;
+	z-index: 60;
 }
 
 .clothes { 
 	position: absolute;
+	z-index: 70;
 }
 
 
